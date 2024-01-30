@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-cadre {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(0, 68, 68);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 30px;
+}
+.cadre {
+  width: 350px;
+  height: 350px;
+  background-image: url("../styles/images/fa.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: rgb(0, 68, 68);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.cadre-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+.cadre-element {
+  display: flex;
+  justify-content: space-between;
+}
+.vato1 {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffeb3b;
+}
+.vato2 {
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: tomato;
+}
+
+.vato1:hover {
+  box-shadow: 0px 0px 2px 2px aqua;
+}
+.vato2:hover {
+  box-shadow: 0px 0px 2px 2px rgb(82, 223, 0);
+}
+
+.Joueur {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  display: flex;
+}
+.tour {
+  width: 100%;
+  margin-top: 10px;
+  height: 10px;
+  background-color: #00bcd4;
+}
+.game-all {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 950px) {
+  .container-cadre {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .cadre {
+    width: 300px;
+    height: 300px;
+  }
+  .game-all {
+    flex-direction: column;
+  }
+}

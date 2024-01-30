@@ -1,0 +1,20 @@
+.about-content {
+  width: 50%;
+  margin-top: 30px;
+}
+.about-content p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.about-content h1 {
+  text-align: center;
+}
+@media screen and (max-width: 950px) {
+  .about-content {
+    width: 80%;
+  }
+  .about-content h1 {
+    margin-top: 20px;
+  }
+}
